@@ -1,0 +1,67 @@
+..........................................................
+1.Create jhipster project
+•	Base name: cambioConnect
+•	Database: cambioconnect
+•	Main package: se.cambio.connect
+
+2.Copy  files
+•	.jhipster
+•	src folders
+•	Bower 
+•	pom.xml
+
+3. Run npm install
+4. Run gulp install
+5.Run yo jhipster --force --with-entities
+6..Replace config and security files from SVN
+7.Copy bower file 
+8. Run bower install
+9.Run gulp inject
+10. Clear index.html
+11.Replace the pom file
+12.Run mvnw
+
+................................................................
+
+\\cwlk-nisharas
+
+
+.................................................................
+
+1.Resource.java ----->API call
+2.service.java(Interface)---->Method declaration
+3.serviceImpl.java---->Method Implementation
+4.Repository.java---->Database Queries
+
+5.DTO 
+
+.....................................................................................................
+
+when generating entities,
+the relationship from buiding and floors entities to location entity didn't generate.
+
+ALTER TABLE `location`
+  ADD CONSTRAINT `location_floors_id_fk` FOREIGN KEY (`floor_id`) REFERENCES `floors` (`id`),
+  ADD CONSTRAINT `location_building_id_fk` FOREIGN KEY (`building_id`) REFERENCES `building` (`id`);
+
+........................................................................................................
+
+
+Login issue--->check whether xampp is running
+
+yo jhipster:entity <entityName>
+
+
+start chrome --disable-web-security http://localhost:8080/cambioconnect.html
+
+Remote Access Connection Manager
+
+\\CWLK-VIDUNI\Clean Coders
+
+...............................................................................................
+
+https://subversion.cambio.se/PC/research/Gemini/ReleaseMobileApp/
+
+https://subversion.cambio.se/PC/Research/Gemini/ReleaseApplication/
+
+https://subversion.cambio.se/PC/InternalTools/CambioMobileApp/
