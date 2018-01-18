@@ -6,6 +6,7 @@ Install Ionic
 
 Create new project
 >>ionic start myNewProject
+
 (if you are using ionic 1)
 >>ionic start myproject --type ionic1
 
