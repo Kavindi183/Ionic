@@ -1,4 +1,7 @@
 # Ionic
+
+This is a  very simple ionic app,created using ionic 1.
+
 Basic Ionic commands
 
 Install Ionic 
